@@ -1,8 +1,11 @@
-# To run code for different parts of HW5 separately, open the terminal
-## Part a:
-- `cd part_a`
-- `make && ./part_a`
+# real-time-scheduler
+Implementation of single-processor real-time scheduling, including a schedulability analyzer and a priority-based scheduler simulator supporting RM and EDF policies. Includes job tracing, deadline-miss handling, CPU utilization computation, and pthread-based task simulation.
 
-## Part b:
-- `cd part_b`
-- `make && ./part_b`
+## To run code for different parts
+### Part 1:
+- `cd part_1`
+- `make && ./part_1`
+
+### Part 2:
+- `cd part_2`
+- `make && ./part_2`
